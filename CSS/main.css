@@ -1,7 +1,166 @@
 html {
-
+  font-family: "Kepler Std", serif;
 }
 
 header {
   background-color: #465d58;
+}
+
+.banner h1 {
+  font-family: "Quiche Display";
+  color: #fff;
+  font-size: 4.768em;
+}
+
+.logo {
+  height: 35px;
+}
+
+h1, h2, h3, legend {
+  font-family: Cardo, serif;
+}
+
+header a, footer a {
+  color: #fff;
+}
+
+header ul {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #eee0e8;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+.nav-check:checked ~ ul {
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-label {
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  cursor: pointer;
+  display: inline-block;
+  width: 23px;
+}
+
+[type="checkbox"] + label::before {
+  position: absolute;
+  top: -9em;
+  right: 13px;
+  cursor: pointer;
+  display: inline-block;
+  width: 23px;
+}
+
+.banner a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  color: #fff;
+  overflow: hidden;
+  max-height: 30em;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  overflow: visible;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  border: 1px solid #dfebee;
+  color: #dfebee;
+  font: inherit;
+  text-decoration: none;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #7b8383;
+  border: 1px solid #dfebee;
+}
+
+
+.nav-label img {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+  align-items: flex-end;
+  font-family: Interstate, sans-serif;
+}
+
+
+
+.banner h2 {
+
+}
+
+.recipe h1 {
+
+}
+
+.recipe h2 {
+
+}
+
+.recipe h3 {
+
+}
+
+.recipe h4 {
+
+}
+
+
+footer {
+  background-color: #465d58;
+  color: #fff;
+  font-family: Interstate, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-check,
+  .nav-label {
+    display: none;
+    width: 0;
+  }
+
+  nav ul {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
 }
