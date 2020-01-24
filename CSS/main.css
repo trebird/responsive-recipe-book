@@ -4,16 +4,25 @@ html {
 
 header {
   background-color: #465d58;
+  min-height: 40px;
 }
 
 .banner h1 {
   font-family: "Quiche Display";
   color: #fff;
-  font-size: 4.768em;
+  line-height: 1;
+  font-size: 1.5rem;
 }
 
+.for-the {
+  font-family: "Quiche Display";
+  font-size: 50%;
+  vertical-align: top;
+  font-style: italic;
+  font-weight: bold;
+}
 .logo {
-  height: 35px;
+  max-height: 40px;
 }
 
 h1, h2, h3, legend {
@@ -52,7 +61,7 @@ nav a:hover {
 
 .nav-label {
   position: absolute;
-  top: 15px;
+  top: 13px;
   right: 13px;
   cursor: pointer;
   display: inline-block;
@@ -68,16 +77,27 @@ nav a:hover {
   width: 23px;
 }
 
+.banner {
+  color: #fff;
+}
+
+.for-the {
+  font-family: "Quiche Display";
+  font-style: italic;
+  font-weight: bold;
+}
+
+.banner p {
+  font-family: Interstate, sans-serif;
+  font-size:.9rem;
+  overflow: hidden;
+}
+
 .banner a {
   text-decoration: none;
   color: #fff;
 }
 
-.banner {
-  color: #fff;
-  overflow: hidden;
-  max-height: 30em;
-}
 
 .btn {
   cursor: pointer;
@@ -100,13 +120,12 @@ nav a:hover {
 }
 
 .btn-ghost:hover {
-  background-color: #7b8383;
-  border: 1px solid #dfebee;
+  background-color: rgba(70, 93, 88, 0.5);
+  border: 1.5px solid #dfebee;
 }
 
 
 .nav-label img {
-  display: flex;
   width: 100%;
 }
 
@@ -116,7 +135,22 @@ ul {
   font-family: Interstate, sans-serif;
 }
 
+.intro {
+  font-family: Kepler Std, serif;
+}
 
+.banner h2 {
+  font-family: "Quiche Display";
+}
+
+.intro-1 h2 {
+  font-family: "Quiche Display";
+  color: #465d58
+}
+
+.intro-1 p {
+  color: #465d58;
+}
 
 .banner h2 {
 
@@ -149,6 +183,14 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav-check,
@@ -162,5 +204,17 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+  .banner h1 {
+    font-size: 2.9rem ;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.banner h1 {
+  font-size: 4rem;
+}
 
 }
