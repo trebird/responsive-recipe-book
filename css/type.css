@@ -1053,7 +1053,7 @@ legend {
   small,
   .milli {
     font-size: .85rem;
-    line-height: 1.5rem;
+    line-height: 1.1rem;
   }
 
   .micro {
@@ -1470,7 +1470,7 @@ legend {
   small,
   .milli {
     font-size: .85rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
   }
 
   .micro {
