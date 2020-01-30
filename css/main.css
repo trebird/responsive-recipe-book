@@ -152,6 +152,36 @@ ul {
   line-height: 1.2rem;
 }
 
+.banner h4 {
+  font-family: "Quiche Display", sans-serif;
+
+}
+
+.landing {
+  background-color:#465d58;
+}
+
+.link-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Quiche Sans", sans-serif;
+  border: solid .5px rgba(255, 255, 255, 0);
+  border-radius: 60px;
+  opacity: 0.65;
+  max-width: 400px;
+}
+
+.link-card:hover {
+  opacity: 100%;
+}
+
+.link-card a {
+  color: #fff;
+}
+
+.thumb {
+  border-radius: 60px;
+}
+
 footer {
   background-color: #465d58;
   color: #fff;
