@@ -179,6 +179,10 @@ ul {
   color: #fff;
 }
 
+.link-card-home a {
+  color: #465d58;
+}
+
 .thumb {
   border-radius: 60px;
 }
