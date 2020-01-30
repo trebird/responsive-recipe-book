@@ -225,6 +225,7 @@ a {
 
 .related hr {
   border: solid .5px;
+  color:  rgba(70, 93, 88, .5);
 }
 
 .related h4 {
