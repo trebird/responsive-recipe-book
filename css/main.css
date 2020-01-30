@@ -154,26 +154,25 @@ ul {
 
 .banner h4 {
   font-family: "Quiche Display", sans-serif;
-
 }
 
 .landing {
-  background-color:#465d58;
+  background-color: #465d58;
 }
 
 .link-card {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, .2);
   font-family: "Quiche Sans", sans-serif;
   border: solid .5px rgba(255, 255, 255, 0);
   border-radius: 60px;
-  opacity: 0.65;
+  opacity: .65;
   max-width: 400px;
 }
 
 .link-card:hover {
-  opacity: 100%;
+  opacity: 1;
   transform: scale(1.01);
-  transition: all 250ms ease-in-out 20ms;
+  transition: all 250ms ease-in-out;
 }
 
 .link-card a {
