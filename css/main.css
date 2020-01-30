@@ -28,10 +28,6 @@ header {
   max-height: 40px;
 }
 
-h1, h2, h3, legend {
-  font-family: Cardo, serif;
-}
-
 header a, footer a {
   color: #fff;
 }
@@ -80,6 +76,10 @@ nav a:hover {
   width: 23px;
 }
 
+.current .img-flex {
+  width: 150%;
+}
+
 .banner {
   color: #fff;
 }
@@ -104,7 +104,7 @@ nav a:hover {
   -moz-appearance: none;
   appearance: none;
   border-radius: 10px;
-  border: 1px solid #dfebee;
+  border: 2px solid #dfebee;
   color: #dfebee;
   font: inherit;
   text-decoration: none;
@@ -145,6 +145,10 @@ ul {
 
 .intro-1 h2, .intro-2 h3 {
   font-family: "Quiche Display";
+}
+
+.intro-2 p {
+  line-height: 1.25rem;
 }
 
 footer {
@@ -191,5 +195,16 @@ a {
   .banner h1 {
     font-size: 4rem;
   }
+
+  .intro-2 .column-mon {
+    column-count: 2;
+  }
+
+
+}
+
+@@media only screen and (min-width: 90em) {
+
+
 
 }
