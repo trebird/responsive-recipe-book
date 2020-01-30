@@ -226,10 +226,6 @@ a {
     max-width: 11em;
 }
 
-.prep p {
-;
-}
-
 @media only screen and (min-width: 25em) {
 
   .banner h1 {
@@ -238,6 +234,7 @@ a {
 
   .ingredients ul {
     column-count: 2;
+    max-width: 25em;
   }
 
   .recipe li {
