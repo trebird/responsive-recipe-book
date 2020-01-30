@@ -23,6 +23,7 @@ header {
   font-style: italic;
   font-weight: bold;
 }
+
 .logo {
   max-height: 40px;
 }
@@ -83,15 +84,9 @@ nav a:hover {
   color: #fff;
 }
 
-.for-the {
-  font-family: "Quiche Display";
-  font-style: italic;
-  font-weight: bold;
-}
-
 .banner p {
   font-family: Interstate, sans-serif;
-  font-size:.9rem;
+  font-size: .9rem;
   overflow: hidden;
 }
 
@@ -122,10 +117,9 @@ nav a:hover {
 }
 
 .btn-ghost:hover {
-  background-color: rgba(70, 93, 88, 0.5);
+  background-color: rgba(70, 93, 88, .5);
   border: 1.5px solid #dfebee;
 }
-
 
 .nav-label img {
   width: 100%;
@@ -138,7 +132,7 @@ ul {
 }
 
 .intro {
-  font-family: Kepler Std, serif;
+  font-family: "Kepler Std", serif;
 }
 
 .banner h2 {
@@ -146,33 +140,12 @@ ul {
 }
 
 .intro-1 {
-  color: #465d58
+  color: #465d58;
 }
 
 .intro-1 h2, .intro-2 h3 {
   font-family: "Quiche Display";
 }
-
-.banner h2 {
-
-}
-
-.recipe h1 {
-
-}
-
-.recipe h2 {
-
-}
-
-.recipe h3 {
-
-}
-
-.recipe h4 {
-
-}
-
 
 footer {
   background-color: #465d58;
@@ -208,22 +181,15 @@ a {
   }
 
   .banner h1 {
-    font-size: 2.9rem ;
+    font-size: 2.9rem;
   }
+
+}
 
 @media only screen and (min-width: 60em) {
 
   .banner h1 {
     font-size: 4rem;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  . {
-    column-count: 2;
-    column-gap: 30px;
   }
 
 }
