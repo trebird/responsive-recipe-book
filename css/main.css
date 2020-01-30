@@ -159,7 +159,7 @@ ul {
 
 .servings {
   font-family: Interstate, sans-serif;
-  color: #465d58
+  color: #465d58;
 }
 
 .banner h4 {
@@ -216,14 +216,11 @@ a {
 .recipe li {
   font-family: "Kepler Std", serif;
   color: #465d58;
+  max-width: 11em;
 }
 
 .ingredients ul {
   column-count: 2;
-}
-
-.recipe li {
-    max-width: 11em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -238,8 +235,9 @@ a {
   }
 
   .recipe li {
-      max-width: 11em;
+    max-width: 11em;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -263,7 +261,6 @@ a {
   .ingredients ul {
     column-count: 1;
   }
-
 
   .prep {
     margin-left: 10px;
