@@ -152,6 +152,16 @@ ul {
   line-height: 1.2rem;
 }
 
+.notes {
+  font-family: Interstate, sans-serif;
+  font-weight: 500;
+}
+
+.servings {
+  font-family: Interstate, sans-serif;
+  color: #465d58
+}
+
 .banner h4 {
   font-family: "Quiche Display", sans-serif;
 }
@@ -198,12 +208,41 @@ a {
   text-decoration: none;
 }
 
+.recipe h2, .recipe h3 {
+  font-family: "Quiche Sans", sans-serif;
+  color: #465d58;
+}
+
+.recipe li {
+  font-family: "Kepler Std", serif;
+  color: #465d58;
+}
+
+.ingredients ul {
+  column-count: 2;
+}
+
+.recipe li {
+    max-width: 11em;
+}
+
+.prep p {
+;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner h1 {
     font-size: 2rem;
   }
 
+  .ingredients ul {
+    column-count: 2;
+  }
+
+  .recipe li {
+      max-width: 11em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -222,6 +261,15 @@ a {
 
   .banner h1 {
     font-size: 2.9rem;
+  }
+
+  .ingredients ul {
+    column-count: 1;
+  }
+
+
+  .prep {
+    margin-left: 10px;
   }
 
 }

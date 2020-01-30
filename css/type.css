@@ -245,8 +245,8 @@ small,
 }
 
 .micro {
-  font-size: .6944rem;
-  line-height: 1.3rem;
+  font-size: .85rem;
+  line-height: .9rem;
 }
 
 .nano {
@@ -636,12 +636,12 @@ legend {
   small,
   .milli {
     font-size: .9rem;
-    line-height: 1.4rem;
+    line-height: 1.25rem;
   }
 
   .micro {
-    font-size: .64rem;
-    line-height: 1.05rem;
+    font-size: .8rem;
+    line-height: .9rem;
   }
 
   .nano {
@@ -1474,7 +1474,7 @@ legend {
   }
 
   .micro {
-    font-size: .64rem;
+    font-size: .8rem;
     line-height: 1.125rem;
   }
 
