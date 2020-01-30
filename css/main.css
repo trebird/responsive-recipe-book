@@ -223,6 +223,28 @@ a {
   column-count: 2;
 }
 
+.related hr {
+  border: solid .5px;
+}
+
+.related h4 {
+  font-family: Interstate, sans-serif;
+  font-weight: 500;
+}
+
+.card img {
+  opacity: .75;
+}
+
+.card:hover img {
+  opacity: 1;
+  transition: all 250ms ease-in-out;
+}
+
+.card a {
+  color: #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner h1 {
